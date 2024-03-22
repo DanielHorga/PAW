@@ -1,0 +1,59 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #3498db;
+    color: #3D405B;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+.profile-pic {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.content {
+    padding: 20px;
+}
+
+.left-content {
+    width: 48%;
+}
+
+.right-content .hobbies-list li img {
+    margin-left: 10px; /* Adaugă o margine la stânga imaginii pentru a crea spațiu între text și imagine */
+    margin-right: 0; /* Elimină marginea dreaptă a imaginii */
+}
+
+.email-icon {
+    width: 35px; /* Setează lățimea imaginii la 10px */
+    height: auto; /* Permite redimensionarea automată a înălțimii pentru a menține proporțiile originale */
+}
+
+.hobbies-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.hobbies-list li {
+    margin-bottom: 10px;
+    display: flex; /* Aliniere orizontală a elementelor */
+    align-items: center; /* Așezarea verticală a elementelor */
+}
+
+.hobbies-list li img {
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+}
